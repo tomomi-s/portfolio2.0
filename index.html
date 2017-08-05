@@ -19,6 +19,63 @@
         </meta>
     </head>
     <body>
+        <div id="navbar-mobile">
+            <div id="navbar-mobile-header">
+                <div id="navbar-toggle">
+<!--                     <div class="nav-bar-btn">
+                    <span class="nabvar-icon"></span>
+                    <span class="nabvar-icon"></span>
+                    <span class="nabvar-icon"></span>
+                    </div> -->
+                    <div class="nav-bar-le">
+                    MENU
+                    </div>
+                </div>
+                <div id="navbar-icon-wrapper">
+                    <a class="icon" href="https://www.linkedin.com/in/tomomi-suda" target="blank">
+                        <div class="icon-wrapper">
+                            <i aria-hidden="true" class="fa fa-linkedin-square fa-2x">
+                            </i>
+                        </div>
+                    </a>
+                    <a class="icon" href="https://github.com/tomomi-s" target="blank">
+                        <div class="icon-wrapper">
+                            <i aria-hidden="true" class="fa fa-github fa-2x">
+                            </i>
+                        </div>
+                    </a>
+                    </div>
+            </div>
+            <div id="navbar-mobile-menu">
+                <ul class="navbar-mobile-list">
+                    <a class="menu" href="#header">
+                        <li>
+                            HOME
+                        </li>
+                    </a>
+                    <a class="menu" href="#works">
+                        <li>
+                            WORKS
+                        </li>
+                    </a>
+                    <a class="menu" href="#skills">
+                        <li>
+                            SKILLS
+                        </li>
+                    </a>
+                    <a class="menu" href="#about">
+                        <li>
+                            ABOUT
+                        </li>
+                    </a>
+                    <a class="menu" href="#contact">
+                        <li>
+                            CONTACT
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
         <div id="wrapper">
             <div class="hp-menu">
                 <div class="sticky-nav">
@@ -100,52 +157,125 @@
                     </h2>
                     <!-- screenshot of img is 700*450 -->
                     <div class="work-wrapper content-wrapper-margin">
-                        <div class="work">
-                            <a href="http://shoahlegacy.org/restitution-of-immovable-property/">
-                                <img alt="Shoah Legacy" src="img/works/Shoah Legacy.png">
-                                </img>
-                            </a>
+                        <div class="work modal-btn" data-modal="modal-1">
+                            <img alt="Shoah Legacy" src="img/works/Shoah Legacy.png"/>
                             <p>
                                 The European Shoah Legacy Institute
                             </p>
-                            <!--                             <div class="modal" id="myModal">
-                                Modal content
-                                <div class="modal-content">
-                                    <span class="close">
-                                        ×
-                                    </span>
-                                    <p>
-                                        Some text in the Modal..
-                                    </p>
-                                </div>
-                            </div> -->
                         </div>
-                        <div class="work">
-                            <a href="http://rezidencezalanskeho.data4you.cz/">
-                                <img alt="Rezidence Zalanskeho" src="img/works/Rezidence Zalanskeho.png">
-                                </img>
-                            </a>
+                        <!-- The Modal -->
+                        <div class="modal" id="modal-1">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <a class="close">
+                                    ×
+                                </a>
+                                <div class="modal-content-wrapper">
+                                    <p class="modal-title">
+                                        The European Shoah Legacy Institute
+                                    </p>
+                                    <a href="http://shoahlegacy.org/restitution-of-immovable-property/" target="_blank">
+                                        <img alt="Shoah Legacy" src="img/works/Shoah Legacy.png"/>
+                                    </a>
+                                    <p>
+                                        - An interactive webpage for their project
+                                    </p>
+                                    <a class="modal-visit-btn" href="http://shoahlegacy.org/restitution-of-immovable-property/" target="_blank">
+                                        Visit
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="work modal-btn" data-modal="modal-2">
+                            <img alt="Rezidence Zalanskeho" src="img/works/Rezidence Zalanskeho.png">
+                            </img>
                             <p>
                                 Rezidence Žalanského
                             </p>
                         </div>
-                        <div class="work">
-                            <a href="">
-                                <img alt="Sportemu" src="img/works/Sportemu.png">
-                                </img>
-                            </a>
+                        <!-- The Modal -->
+                        <div class="modal" id="modal-2">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <a class="close">
+                                    ×
+                                </a>
+                                <div class="modal-content-wrapper">
+                                    <p class="modal-title">
+                                        Rezidence Žalanského
+                                    </p>
+                                    <a href="http://rezidencezalanskeho.data4you.cz/" target="_blank">
+                                        <img alt="Rezidence Zalanskeho" src="img/works/Rezidence Zalanskeho.png"/>
+                                    </a>
+                                    <p>
+                                        - An interactive website for a real estate project
+                                    </p>
+                                    <a class="modal-visit-btn" href="http://rezidencezalanskeho.data4you.cz/" target="_blank">
+                                        Visit
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="work modal-btn" data-modal="modal-3">
+                            <img alt="Sportemu" src="img/works/Sportemu.png">
+                                <p>
+                                    Sportemu
+                                </p>
+                            </img>
+                        </div>
+                        <!-- The Modal -->
+                        <div class="modal" id="modal-3">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <a class="close">
+                                    ×
+                                </a>
+                                <div class="modal-content-wrapper">
+                                    <p class="modal-title">
+                                        Sportemu
+                                    </p>
+                                    <!-- <a href="" target="_blank"> -->
+                                    <img alt="Sportemu" src="img/works/Sportemu.png"/>
+                                    <!-- </a> -->
+                                    <p>
+                                        - Web application which allows users to book sports, find co-players and split costs instantly
+                                    </p>
+                                    <span class="modal-visit-btn">
+                                        Still working...
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="work modal-btn" data-modal="modal-4">
+                            <img alt="Leonardus Apartment" src="img/works/Leonardus Apartment.png">
+                            </img>
                             <p>
-                                Sportemu
+                                Leonardus Apartment
                             </p>
                         </div>
-                        <div class="work">
-                            <a href="">
-                                <img alt="Sportemu" src="img/works/Sportemu.png">
-                                </img>
-                            </a>
-                            <p>
-                                Sportemu
-                            </p>
+                        <!-- The Modal -->
+                        <div class="modal" id="modal-4">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <a class="close">
+                                    ×
+                                </a>
+                                <div class="modal-content-wrapper">
+                                    <p class="modal-title">
+                                        Leonardus Apartment
+                                    </p>
+                                    <a href="https://github.com/RutgerBrns/hotel" target="_blank">
+                                        <img alt="Leonardus Apartment" src="img/works/Leonardus Apartment.png">
+                                        </img>
+                                    </a>
+                                    <p>
+                                        - Web application which allows users to book the accommodation
+                                    </p>
+                                    <a class="modal-visit-btn" href="https://github.com/RutgerBrns/hotel" target="_blank">
+                                        Visit GitHub
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -172,7 +302,7 @@
                             <i class="devicon-javascript-plain">
                             </i>
                             <p>
-                                Javascpipt
+                                Javascript
                             </p>
                         </div>
                         <div class="skill-icon">
@@ -234,7 +364,7 @@
                     </div>
                 </div>
                 <div class="content-margin" id="about">
-                    <h2 class="content_menu ">
+                    <h2 class="content_menu">
                         ABOUT
                     </h2>
                     <div class="about-wrapper content-wrapper-margin">
@@ -248,15 +378,13 @@
                                         Web developer based in Europe. Born in Japan.
                                     </p>
                                     <p>
-                                        After 4 years experience as a merchandiser of office furnitures at a Japanese mail order
-            company, moved to Prague and started career as a web developer.
-                                        <br>
-                                            I worked on several group projects as a primarily front end web developer. I always focus on usability and smooth user experience when I create UIs.
-                                        </br>
+                                        I moved to Prague in the Czech Republic after four years experience as a merchandiser of office furnitures at a Japanese mail order company in Tokyo. I started career as a web developer in the beginning of 2017.
+I worked on several group projects as a primarily front end web developer. I always focus on usability and smooth user experience when I create UIs.
                                     </p>
                                 </div>
                             </div>
                             <div class="intro-text-styling exp-list">
+                            <div class="exp-list-wrapper">
                                 <p>
                                     EXPERIENCE
                                 </p>
@@ -274,6 +402,9 @@
                                         Catalogue editing
                                     </li>
                                     <li>
+                                    Directing of e-commerce website
+                                    </li>
+                                    <li>
                                         Quality control
                                     </li>
                                     <li>
@@ -284,19 +415,20 @@
                                     </li>
                                 </ul>
                             </div>
+                            </div>
                         </div>
                         <div class="intro-further">
                             <div class="intro-text-styling">
-                                    <h3>
-                                        AND...
-                                    </h3>
-                                    <p>
-                                        Explorer.
-                                    </p>
-                                    <p>
-                                    I started traveling by myself at the age of 18. I enjoy ex
-                                    </p>
-                                </div>
+                                <h3>
+                                    AND...
+                                </h3>
+                                <p>
+                                    Explorer.
+                                </p>
+                                <p>
+                                    I started traveling by myself at the age of 18 as a backpacker in over 20 countries and the whole of Japan. I enjoy exploring new worlds and challenging something new.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -305,56 +437,90 @@
                         CONTACT
                     </h2>
                     <div class="contact-wrapper content-wrapper-margin">
-                        <form action="" method="post">
-                            <div class="form-content">
-                                <label for="Name">
-                                    Name
-                                </label>
-                                <input id="Name" name="name" type="text"/>
+                        <div class="hide-contact-message loading">
+                            <div class="contact-messages">
+                                <p class="contact-message loading-content">
+                                    <i class="fa fa-spinner fa-spin fa-2x fa-fw">
+                                    </i>
+                                    <span>
+                                        Sending...
+                                    </span>
+                                </p>
                             </div>
-                            <div class="form-content">
-                                <label for="Email">
-                                    Email
-                                </label>
-                                <input id="Email" name="email" type="text"/>
+                        </div>
+                        <div class="hide-contact-message success">
+                            <div class="contact-messages">
+                                <p class="contact-message">
+                                    Thank you!
+                                    <br>
+                                        Message was successfully sent.
+                                    </br>
+                                </p>
                             </div>
-                            <div class="form-content">
-                                <label for="Message">
-                                    Message
-                                </label>
-                                <textarea cols="20" id="Message" name="message" rows="20">
-                                </textarea>
+                        </div>
+                        <div class="hide-contact-message error">
+                            <div class="contact-messages">
+                                <p class="contact-message">
+                                    Sorry...
+                                    <br>
+                                        Message was not sent. Please try again.
+                                    </br>
+                                </p>
                             </div>
-                            <div class="form-content">
-                                <input name="submit" type="submit" value="SEND">
+                        </div>
+                        <div class="failed" style="display: none">
+                            <div class="contact-messages">
+                            </div>
+                        </div>
+                        <div class="contact-init">
+                            <form action="mailer/mail.php" id="mailer-form" method="post">
+                                <div class="form-group">
+                                    <label>
+                                        Name
+                                    </label>
+                                    <input class="form-control home-contact-form" name="name" required="" type="text">
+                                    </input>
+                                </div>
+                                <div class="form-group">
+                                    <label>
+                                        Email
+                                    </label>
+                                    <input class="form-control home-contact-form" name="email" required="" type="text">
+                                    </input>
+                                </div>
+                                <div class="form-group">
+                                    <label>
+                                        Message
+                                    </label>
+                                    <textarea class="form-control home-contact-form" name="your-message" required="" rows="7"></textarea>
+                                </div>
+                                <div class="form-group form-button">
+                                    <input class="contact-button" type="submit" value="Send">
+                                    </input>
+                                </div>
+                                <input name="honeypot" type="hidden" value="http://">
+                                    <input name="humancheck" type="hidden" value="">
+                                    </input>
                                 </input>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </body>
-</html>
-<div id="back-home-icon">
-    <a href="#header">
-        <i aria-hidden="true" class="fa fa-chevron-circle-up fa-2x">
-        </i>
-    </a>
-</div>
-<!--             <div style="clear: both;">
-            </div> -->
-<div id="footer">
-    <p>
-        Copyright ©
-        <?php echo date("Y"); ?>
-        Tomomi Suda
-    </p>
-</div>
-<script src="js/jquery-3.2.1.min.js">
-</script>
-<script>
-    //scroll to section//
+        <div id="footer">
+            <p>
+                Copyright ©
+                <?php echo date("Y"); ?>
+                Tomomi Suda
+            </p>
+        </div>
+        <script src="js/jquery-3.2.1.min.js">
+        </script>
+        <script>
+
+
+//scroll to section//
     $('a[href^="#"]').on('click', function (event) {
         var target = $(this.getAttribute('href'));
         if (target.length) {
@@ -364,6 +530,22 @@
             }, 1000);
         }
     });
+
+ //navbar for mobile
+$(document).ready(function(){
+    $("#navbar-toggle").click(function(){
+        $("#navbar-mobile-menu").slideToggle();
+    });
+});
+
+ // //hide nav menu after click//
+ //    $(document).ready(function () {
+ //        $(".navbar-mobile-list a").click(function(event) {
+ //            $(".navbar-mobile-list").slideUp();
+ //        });
+ //    });
+
+
 
 //slide show//
     var slideIndex = 0;
@@ -383,18 +565,89 @@
         setTimeout(showSlides, 4000); // Change image every 2 seconds
     }
 
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+//modal
 
-    ga('create', 'UA-96547001-1', 'auto');
-    ga('send', 'pageview');
-</script>
+var modalBtns = [...document.querySelectorAll(".modal-btn")];
+modalBtns.forEach(function(btn){
+  btn.onclick = function() {
+    var modal = btn.getAttribute('data-modal');
+    document.getElementById(modal).style.display = "block";
+
+  }
+});
+
+var closeBtns = [...document.querySelectorAll(".close")];
+closeBtns.forEach(function(btn){
+  btn.onclick = function() {
+    var modal = btn.closest('.modal');
+    modal.style.display = "none";
+  }
+});
+
+window.onclick = function(event) {
+  if (event.target.className === "modal") {
+    event.target.style.display = "none";
+  }
+}
+
+
+    //replace form with messages after submit//
+
+    $('#mailer-form').submit(function (e) {
+        e.preventDefault();
+
+        var data = $(this).serialize();
+
+        $.ajax({
+            type: "POST",
+            url: 'mailer/mail.php',
+            data: data,
+            cache: false,
+            beforeSend: function () {
+                $('.loading').removeClass("hide-contact-message");
+                $('#contact .failed .contact-messages').empty(); // empty the messages always
+            },
+        }).done(function (data, status) {
+            if (data.result == 'success') {
+                $('#contact .failed').hide();
+
+                $('#mailer-form').closest('.contact-init').hide();
+
+                $('.hide-contact-message.success').show();
+            } else {
+                $('#mailer-form').closest('.contact-init').hide();
+
+                $('#contact .failed').show(); // show the element for messages
+                var msgs_list = $('#contact .failed .contact-messages'); // find the container for messages within
+                msgs_list.empty(); // empty the container for messages
+                $.each(data.messages, function (i, message) { // for each of the messages in the response
+                    msgs_list.append($('<div class="message message-' + message.type + '">' + message.text + '</div>'));
+                });
+            }
+
+        }).fail(function () {
+            $('#mailer-form').closest('.contact-init').hide();
+
+            $('.hide-contact-message.error').show();
+        }).always(function () {
+            $('.loading').addClass("hide-contact-message");
+        })
+    });
+
+    //    (function (i, s, o, g, r, a, m) {
+    //     i['GoogleAnalyticsObject'] = r;
+    //     i[r] = i[r] || function () {
+    //             (i[r].q = i[r].q || []).push(arguments)
+    //         }, i[r].l = 1 * new Date();
+    //     a = s.createElement(o),
+    //         m = s.getElementsByTagName(o)[0];
+    //     a.async = 1;
+    //     a.src = g;
+    //     m.parentNode.insertBefore(a, m)
+    // })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    // ga('create', 'UA-96547001-1', 'auto');
+    // ga('send', 'pageview');
+        </script>
+    </body>
+</html>
